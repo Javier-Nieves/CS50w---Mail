@@ -1,0 +1,166 @@
+body {
+    background-image: url("back1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+    padding: 10px;
+}
+
+.alert-good, .alert-bad {
+    font-size: 27px;
+    text-align: center;
+    padding: 3px 200px 3px 200px;
+    color: #270;
+    background-color: #DFF2BF;
+    background-color: rgba(167, 254, 16, 0.3);
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 0;
+    margin: 5px 0 5px 0;
+}
+.alert-bad {
+    color: #D8000C;
+    background-color: rgba(248, 49, 49, 0.3);
+}
+
+a:link, :visited{
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: white;
+}
+.container {
+    max-width: 85vw;
+}
+.nav-btn {
+    font-family: Didot, Serif;
+    font-size: 18px;
+    background-color: #84745e;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+}
+.nav-btn:hover {
+    background-color: #DD6865;
+}
+
+h3 {
+    font-family: 'Snell Roundhand', cursive, Serif;
+    font-size: 60px;
+}
+h2 {
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 50px;;
+}
+
+.letter {
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 8px 15px 8px 15px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.inbox-read:hover, .letter:hover {
+    background-color: #95b6ba;
+    cursor: pointer;
+}
+.inbox-unread:hover {
+    background-color: #9ceff8;
+    cursor: pointer;
+}
+
+.hide {
+display: flex;
+}
+
+.inbox-read {
+    background-color: rgba(226, 226, 226, 0.8);
+}
+.inbox-unread {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-group {
+    display: grid;
+    margin-bottom: 10px;
+    grid-template-columns: 6vw 74vw;
+    align-items: center;
+    justify-items: center;
+}
+textarea {
+    max-width: 80vw;
+    min-height: 50vh;
+    font-family: Didot, Serif;
+    font-size: 18px;
+}
+.text {
+    font-family: Didot, Serif;
+    font-size: 20px;
+}
+.text-display {
+    font-family: Didot, Serif;
+    font-size: 22px;
+}
+.text-display-cursive {
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 30px;
+}
+
+.form-control {
+    font-family: Didot, Serif;
+    font-size: 18px;
+}
+.send-btn {
+    font-family: Didot, Serif;
+    font-size: 25px;
+    background-color: #DD6865;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 22.5vh 8px 22.5vh 8px;
+}
+.send-btn:hover, .reply-button:hover {
+    background-color: #d94b46;
+}
+
+.form-group-2 {
+    display: grid;
+    grid-template-columns: 8vw 72vw;
+    align-items: center;
+    justify-items: start;
+    margin-bottom: 10px;
+}
+.archive-button, .unarchive-button {
+    font-family: Didot, Serif;
+    font-size: 25px;
+    background-color: #7a7776;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10vh 8px 9.5vh 8px;
+    margin: 3px;
+}
+.archive-button:hover, .unarchive-button:hover {
+    background-color: #565656;
+}
+.unarchive-button {
+    padding: 7.5vh 12px 7.5vh 11px;
+}
+.reply-button {
+    font-family: Didot, Serif;
+    font-size: 25px;
+    background-color: #DD6865;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 9.5vh 19px 10vh 19px;
+    margin: 3px;
+}
